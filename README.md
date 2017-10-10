@@ -11,9 +11,13 @@ Use of these scripts assumed you have installed and run MaxQuant on your desktop
 tmt_labeling_efficiency.py
 
 Download the script and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
+
 Open the terminal by simultaneously pressing windows button + R
+
 type cmd and press enter
+
 type cd Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt and press enter
+
 type python tmt_labeling_efficiency.py and press enter
 
 missed_cleavage_rate.py
