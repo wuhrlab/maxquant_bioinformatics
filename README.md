@@ -8,7 +8,9 @@ map_gene_symbol.py and k_means_clustering.py are for use with the proteinGroups.
 USAGE:
 Use of these scripts assumed you have installed and run MaxQuant on your desktop. If you have installed it elsewhere please modify the directory accordingly.
 
-tmt_labeling_efficiency.py
+
+
+# tmt_labeling_efficiency.py
 
 Download the script and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
 
@@ -20,17 +22,23 @@ type cd Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt and press enter
 
 type python tmt_labeling_efficiency.py and press enter
 
-missed_cleavage_rate.py
+# missed_cleavage_rate.py
 
 Download the script and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
+
 Open the terminal by simultaneously pressing windows button + R
+
 type cmd and press enter
+
 type cd Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt and press enter
+
 type python missed_cleavage_rate.py --protease <protease_name> where <protease_name> is lysc or trypsin
+
 eg: python missed_cleavage_rate.py --protease lysc
+
 eg: python missed_cleavage_rate.py --protease trypsin
 
-percent_cysteines.py
+# percent_cysteines.py
 
 Download the script and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
 Open the terminal by simultaneously pressing windows button + R
