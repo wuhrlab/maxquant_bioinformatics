@@ -17,6 +17,7 @@ type cd Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt and press enter
 type python tmt_labeling_efficiency.py and press enter
 
 missed_cleavage_rate.py
+
 Download the script and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
 Open the terminal by simultaneously pressing windows button + R
 type cmd and press enter
@@ -26,6 +27,7 @@ eg: python missed_cleavage_rate.py --protease lysc
 eg: python missed_cleavage_rate.py --protease trypsin
 
 percent_cysteines.py
+
 Download the script and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
 Open the terminal by simultaneously pressing windows button + R
 type cmd and press enter
@@ -33,6 +35,7 @@ type cd Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt and press enter
 type python percent_cysteines.py and press enter
 
 map_gene_symbol.py
+
 Download PHROG_annotation.csv from the PHROG_annotation.zip file on https://scholar.princeton.edu/wuehr/sample_prep
 and place into the txt MaxQuant folder (eg. Desktop\MaxQuant_1.6.0.16\MaxQuant\24fracs\combined\txt)
 Download map_gene_symbol.py and place it in Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt
@@ -42,6 +45,7 @@ type cd Desktop\MaxQuant_1.6.0.16\MaxQuant\combined\txt and press enter
 type python map_gene_symbol.py and press enter
 
 k_means_clustering.py
+
 Download the script and place it in the appropriate txt MaxQuant folder as above
 This must be in the same folder as where map_gene_symbol.py was placed and executed
 Open the terminal by simultaneously pressing windows button + R
