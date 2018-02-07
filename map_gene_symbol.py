@@ -7,7 +7,7 @@ protein_data = pd.read_csv('proteinGroups.txt', '\t')
 
 # read in spreadsheet with mappings from X. laevis contigs to human gene symbols
 # using the tool available at http://kirschner.med.harvard.edu/tools/genesym_assignment.html 
-phrog_annotation = pd.read_csv('PHROG_annotation.csv')
+phrog_annotation = pd.read_csv('phrog_annotation.csv')
 
 print ('Patience! This script takes approximately 1 sec / 50 proteins in your proteinGroups.txt file.')
 
